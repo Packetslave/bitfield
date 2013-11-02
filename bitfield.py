@@ -10,6 +10,7 @@ import array
 
 
 class BitField(object):
+    """A collection of bits that can be set, cleared, and toggled by number."""
 
     __slots__ = ['__max_bit', '__bytes']
 
